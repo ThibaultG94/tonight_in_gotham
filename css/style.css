@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-wrapper {
+    background-image: url('../img/header-bg.jpg');
+    height: 300px;
+}
+
 .header-svg:hover {
     background-color: #000;
 }
