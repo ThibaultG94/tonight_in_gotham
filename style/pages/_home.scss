@@ -1,0 +1,11 @@
+.content {
+    &-link {
+        background-color: #FCD530;
+        color: #000;
+
+        &:hover,
+        .content-link:focus {
+            font-weight: 700;
+        }
+    }
+}

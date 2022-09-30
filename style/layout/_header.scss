@@ -1,0 +1,27 @@
+.header-wrapper {
+    background-image: url('../img/header-bg.jpg');
+    height: 300px;
+}
+
+.header {
+    &-svg {
+        &:hover {
+            background-color: #000;
+
+            & path {
+                fill: #FFEA94;
+                stroke: #FFEA94;
+            }
+        }
+    }
+
+    &-navigation {
+        &-item {
+
+            &:hover,
+            .header-navigation-item:focus {
+                font-weight: 700;
+            }
+        }
+    }
+}

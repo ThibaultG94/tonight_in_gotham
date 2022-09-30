@@ -18,4 +18,53 @@ body {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.header-wrapper {
+  background-image: url("../img/header-bg.jpg");
+  height: 300px;
+}
+
+.header-svg:hover {
+  background-color: #000;
+}
+.header-svg:hover path {
+  fill: #FFEA94;
+  stroke: #FFEA94;
+}
+.header-navigation-item:hover,
+.header-navigation-item .header-navigation-item:focus {
+  font-weight: 700;
+}
+
+.footer {
+  background: url("../img/footer-bg.jpg") center/cover no-repeat;
+}
+.footer-navigation-link {
+  color: #FFF;
+  text-decoration: none;
+}
+.footer-navigation-link:hover,
+.footer-navigation-link .footer-navigation-link:focus {
+  text-decoration: underline;
+}
+.footer-social-icon {
+  margin-right: 10px;
+  opacity: 0.7;
+}
+.footer-social-icon:hover,
+.footer-social-icon .footer-social-icon:focus {
+  opacity: 1;
+}
+.footer-social-icon:last-child {
+  margin-right: unset;
+}
+
+.content-link {
+  background-color: #FCD530;
+  color: #000;
+}
+.content-link:hover,
+.content-link .content-link:focus {
+  font-weight: 700;
 }/*# sourceMappingURL=app.css.map */

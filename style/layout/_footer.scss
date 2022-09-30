@@ -1,0 +1,31 @@
+.footer {
+    background: url('../img/footer-bg.jpg') center/cover no-repeat;
+
+    &-navigation {
+        &-link {
+            color: #FFF;
+            text-decoration: none;
+
+            &:hover,
+            .footer-navigation-link:focus {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &-social {
+        &-icon {
+            margin-right: 10px;
+            opacity: 0.7;
+
+            &:hover,
+            .footer-social-icon:focus {
+                opacity: 1;
+            }
+
+            &:last-child {
+                margin-right: unset;
+            }
+        }
+    }
+}
