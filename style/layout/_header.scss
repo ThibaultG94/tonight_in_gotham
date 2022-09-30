@@ -4,7 +4,7 @@
 }
 
 .header {
-    background-color: rgba(0, 0, 0, .78);
+    background-color: rgba($black, .78);
     display: flex;
     padding: 35px 53px;
 
@@ -19,7 +19,7 @@
         margin-right: 44px;
 
         &:hover {
-            background-color: #000;
+            background-color: $black;
 
             & path {
                 fill: $color-primary;
@@ -37,21 +37,55 @@
         }
 
         &-item {
-            border-left: 1px solid #FFF;
+            border-left: 1px solid $white;
             list-style: none;
             padding-left: 11px;
             width: 120px;
 
-            &:hover,
-            .header-navigation-item:focus {
+            &:hover {
+                font-weight: 700;
+            }
+
+            &:focus {
                 font-weight: 700;
             }
 
             & a {
-                color: white;
+                color: $white;
                 display: block;
                 font-size: 24px;
                 text-decoration: none;
+            }
+        }
+    }
+
+    &-search {
+        margin-left: auto;
+        position: relative;
+
+        &-icon {
+            position: absolute;
+            top: 12px;
+            left: 20px;
+        }
+
+        & input[type='search'] {
+            background: transparent;
+            border-radius: 50px;
+            border: 1px solid $white;
+            color: $white;
+            margin-right: 63px;
+            padding: 14px 16px 14px 54px;
+            width: 220px;
+
+            &:hover {
+                border: 3px solid $white;
+                padding: 12px 16px 14px 52px;
+            }
+
+            &:focus {
+                border: 3px solid $white;
+                padding: 12px 16px 14px 52px;
             }
         }
     }
