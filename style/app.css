@@ -98,6 +98,75 @@ body {
   border: 3px solid #FFF;
   padding: 12px 16px 14px 52px;
 }
+.header-dropdown {
+  color: #FFF;
+  display: flex;
+}
+.header-dropdown-batman-wrapper {
+  background: #313131;
+  border-radius: 50%;
+  display: flex;
+  height: 57px;
+  justify-content: center;
+  margin-right: 13px;
+  position: relative;
+  width: 57px;
+}
+.header-dropdown-batman-wrapper-icon {
+  position: absolute;
+  top: 10px;
+}
+.header-dropdown-link {
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: #FFF;
+  text-decoration: none;
+  padding: 12px 10px;
+}
+.header-dropdown-link:hover {
+  border: 1px solid #FFF;
+}
+.header-dropdown-link:focus {
+  border: 1px solid #FFF;
+}
+.header-dropdown-link-content {
+  margin-right: 10px;
+}
+
+.dropdown {
+  background: #313131;
+  border-radius: 4px;
+  border: 1px solid #FFF;
+  padding-left: 0;
+  position: absolute;
+  top: 90px;
+  right: 40px;
+  z-index: 10;
+  display: none;
+}
+.dropdown li {
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  list-style-type: none;
+  padding: 0 10px;
+}
+.dropdown li:last-child {
+  border-bottom: none;
+}
+.dropdown li:hover {
+  background: #C4C4C4;
+  cursor: pointer;
+}
+.dropdown li:focus {
+  background: #C4C4C4;
+  cursor: pointer;
+}
+.dropdown a {
+  color: #FFF;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
 
 .footer {
   background: url("../img/footer-bg.jpg") center/cover no-repeat;
