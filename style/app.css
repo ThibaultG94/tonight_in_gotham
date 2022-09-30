@@ -25,6 +25,21 @@ body {
   height: 300px;
 }
 
+.header {
+  background-color: rgba(0, 0, 0, 0.78);
+  display: flex;
+  padding: 35px 53px;
+}
+.header-svg {
+  align-items: center;
+  background-color: #FFEA94;
+  border-radius: 50%;
+  display: flex;
+  height: 146px;
+  width: 146px;
+  justify-content: center;
+  margin-right: 44px;
+}
 .header-svg:hover {
   background-color: #000;
 }
@@ -32,9 +47,28 @@ body {
   fill: #FFEA94;
   stroke: #FFEA94;
 }
+.header-navigation {
+  align-self: flex-end;
+}
+.header-navigation ul {
+  display: flex;
+  align-items: center;
+}
+.header-navigation-item {
+  border-left: 1px solid #FFF;
+  list-style: none;
+  padding-left: 11px;
+  width: 120px;
+}
 .header-navigation-item:hover,
 .header-navigation-item .header-navigation-item:focus {
   font-weight: 700;
+}
+.header-navigation-item a {
+  color: white;
+  display: block;
+  font-size: 24px;
+  text-decoration: none;
 }
 
 .footer {
