@@ -1,7 +1,19 @@
 .footer {
     background: url('../img/footer-bg.jpg') center/cover no-repeat;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 78px 0 50px;
 
     &-navigation {
+        display: flex;
+        margin: 0 auto;
+        width: 764px;
+
+        ul {
+            line-height: 25px;
+            margin-right: 80px;
+        }
+
         &-link {
             color: #FFF;
             text-decoration: none;
@@ -11,6 +23,12 @@
                 text-decoration: underline;
             }
         }
+    }
+
+    &-title {
+        color: $white;
+        margin-bottom: 30px;
+        padding-left: 30px;
     }
 
     &-social {
@@ -27,5 +45,9 @@
                 margin-right: unset;
             }
         }
+    }
+
+    &-patterns {
+        padding-left: 30px;
     }
 }
