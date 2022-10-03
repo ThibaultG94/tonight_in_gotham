@@ -20,6 +20,26 @@ body {
   width: 1px;
 }
 
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 .header-wrapper {
   background-image: url("../img/header-bg.jpg");
   height: 300px;
@@ -217,7 +237,6 @@ body {
 }
 .content section {
   background: #FFF;
-  line-height: 22px;
   margin: 0 auto;
   padding: 78px 0 50px;
   width: 764px;
