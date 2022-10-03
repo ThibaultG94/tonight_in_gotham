@@ -241,4 +241,21 @@ body {
   position: absolute;
   left: -100px;
   top: 240px;
+}
+
+.weekly-content-table {
+  border: 1px solid #C4C4C4;
+}
+.weekly-content-table th {
+  background: #FCD530;
+  border: 1px solid #C4C4C4;
+  padding: 2px 5px;
+  text-align: center;
+  vertical-align: top;
+}
+.weekly-content-table td {
+  border: 1px solid #C4C4C4;
+  padding: 2px 5px;
+  text-align: center;
+  vertical-align: top;
 }/*# sourceMappingURL=app.css.map */
