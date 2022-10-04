@@ -14,6 +14,10 @@
             margin-right: 80px;
         }
 
+        li {
+            padding-left: 30px;
+        }
+
         &-link {
             color: #FFF;
             text-decoration: none;
@@ -29,6 +33,12 @@
         color: $white;
         margin-bottom: 30px;
         padding-left: 30px;
+
+        &-follows {
+            color: $white;
+            margin-bottom: 30px;
+            padding-left: 15px;
+        }
     }
 
     &-social {

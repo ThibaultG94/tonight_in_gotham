@@ -552,6 +552,9 @@ p {
   line-height: 25px;
   margin-right: 80px;
 }
+.footer-navigation li {
+  padding-left: 30px;
+}
 .footer-navigation-link {
   color: #FFF;
   text-decoration: none;
@@ -564,6 +567,11 @@ p {
   color: #FFF;
   margin-bottom: 30px;
   padding-left: 30px;
+}
+.footer-title-follows {
+  color: #FFF;
+  margin-bottom: 30px;
+  padding-left: 15px;
 }
 .footer-social-icon {
   margin-right: 10px;
