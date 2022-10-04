@@ -93,20 +93,26 @@
     &-dropdown {
         color: $white;
         display: flex;
+        position: relative;
+        min-width: 186px;
 
-        &-batman-wrapper {
-            background: $dark;
-            border-radius: 50%;
-            display: flex;
-            height: 57px;
-            justify-content: center;
-            margin-right: 13px;
-            position: relative;
-            width: 57px;
+        &-batman {
+            position: absolute;
 
-            &-icon {
-                position: absolute;
-                top: 10px;
+            &-wrapper {
+                background: $dark;
+                border-radius: 50%;
+                display: flex;
+                height: 57px;
+                justify-content: center;
+                margin-right: 13px;
+                position: relative;
+                width: 57px;
+
+                &-icon {
+                    position: absolute;
+                    top: 10px;
+                }
             }
         }
 
@@ -116,6 +122,7 @@
             color: $white;
             text-decoration: none;
             padding: 12px 10px;
+            position: absolute;
 
             &:hover {
                 border: 1px solid $white;
@@ -138,8 +145,8 @@
     border: 1px solid $white;
     padding-left: 0;
     position: absolute;
-    top: 90px;
-    right: 40px;
+    top: 70px;
+    right: 0;
     z-index: 10;
     display: none;
 
